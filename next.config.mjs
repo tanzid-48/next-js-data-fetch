@@ -2,6 +2,19 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
+// "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+
+   images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+        search: '',
+      },
+    ],
+  },
 };
 
 export default nextConfig;

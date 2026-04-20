@@ -5,7 +5,7 @@
       "name": "Wireless Mouse",
       "category": "Electronics",
       "price": 45,
-      "stock": 50,
+      "stock": 30,
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Running Shoes",
       "category": "Fashion",
       "price": 60,
-      "stock": 40,
+      "stock": 20,
       "image": "https://images.unsplash.com/photo-1528701800489-20be3c7b94cb"
     },
     {
