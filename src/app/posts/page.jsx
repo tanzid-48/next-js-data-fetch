@@ -1,3 +1,4 @@
+import PostCard from '@/components/PostCard';
 import React from 'react';
 // there are different way to fetch DATA
 
@@ -36,8 +37,14 @@ import React from 'react';
   const posts =  await getPosts()
     return (
         <div>
-            <h2>post Are coming Soon </h2>
+
             <h3>posts are: {posts.length}</h3>
+
+            <div className="grid  grid-cols-1 md:grid-cols-3 gap-4">
+              {
+                posts.map(post => <PostCard key={post.id} post={post}></PostCard>)
+              }
+            </div>
         </div>
     );
 };
