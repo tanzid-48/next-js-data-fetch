@@ -56,5 +56,70 @@
       "stock": 60,
       "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083"
     }
+  ],
+   "books": [
+    {
+      "id": 1,
+      "name": "Atomic Habits",
+      "author": "James Clear",
+      "category": "Self Development",
+      "price": 15,
+      "stock": 40,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+    },
+    {
+      "id": 2,
+      "name": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "category": "Finance",
+      "price": 12,
+      "stock": 35,
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+    },
+    {
+      "id": 3,
+      "name": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "Fiction",
+      "price": 10,
+      "stock": 50,
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+    },
+    {
+      "id": 4,
+      "name": "Deep Work",
+      "author": "Cal Newport",
+      "category": "Productivity",
+      "price": 18,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d"
+    },
+    {
+      "id": 5,
+      "name": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Programming",
+      "price": 30,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d"
+    },
+    {
+      "id": 6,
+      "name": "Harry Potter",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "price": 22,
+      "stock": 45,
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f"
+    },
+    {
+      "id": 7,
+      "name": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "category": "Finance",
+      "price": 14,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353"
+    }
   ]
 }

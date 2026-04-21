@@ -15,6 +15,19 @@ const nextConfig = {
       },
     ],
   },
+
+  // "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+   images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+        search: '',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
